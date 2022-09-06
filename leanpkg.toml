@@ -1,0 +1,8 @@
+[package]
+name = "Eudoxus_real"
+version = "0.1"
+lean_version = "leanprover-community/lean:3.21.0"
+path = "src"
+
+[dependencies]
+mathlib = {git = "https://github.com/leanprover-community/mathlib", rev = "fee2dfaadadd9f77c8837ac6a068e4aa9002e28d"}
